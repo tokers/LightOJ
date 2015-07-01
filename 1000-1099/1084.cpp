@@ -75,9 +75,6 @@ int main() {
 					}
 				}
 			}
-			if (tail < head) {
-				continue;
-			}
 			if (qu[head]) {
 				if (i - qu[head] < 3) {
 					continue;
